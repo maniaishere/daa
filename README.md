@@ -1,6 +1,7 @@
 # daa
 SESSION-1 (SEARCHING TECHNIQUES)
 Surya and Karthik
+```
 #include <stdio.h>
 int main()
 {
@@ -26,7 +27,9 @@ int main()
  }
  return 0;
 }
+```
 Vinoth's Model practical
+```
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
@@ -47,7 +50,9 @@ int main(){
  cout<<count;
  return 0;
 }
+```
 A double-square numberis an integer Y
+```
 #include <bits/stdc++.h>
 using namespace std;
 int sumSquare(int n)
@@ -74,7 +79,9 @@ int main()
  return 0;
  cout<<"for(i=0;i<=sqrt(y);i++) for(j=0;j<=i;j++)";
 }
+```
 Trapped by a river and racing against time
+```
 #include <bits/stdc++.h>
 using namespace std;
 int main()
@@ -98,7 +105,10 @@ int main()
  else
  cout<<"BARELY MADE IT!";
  return 0;
+ }
+ ```
 Given 'm' postive integers - Searching Lvl 1
+```
 #include <bits/stdc++.h>
 using namespace std;
 #define f(n) for(i=0;i<n;i++)
@@ -136,7 +146,9 @@ int main()
  cout<<maxWater(arr,n);
  return 0;
 }
+```
 The Allies are trying to get a message - Searching Lvl 1
+```
 #include <bits/stdc++.h>
 using namespace std;
 void solve(){ cout<<"break;";}
@@ -161,7 +173,9 @@ if(h>50)cout<<"OUCH!";
 else if(h<25)cout<<"SPLAT!";
 else cout<<"SUCCESS!";
 return 0;}
+```
 Major Kathiravan - Searching Lvl 1
+```
 #include <bits/stdc++.h>
 #define f(n) for(int i=0;i<n;i++)
 using namespace std;
@@ -185,7 +199,10 @@ cout<<res;
 return 0;
 cout<<"while";
 }
+```
+
 Inspector Gadget - Searching Lvl 1
+```
 #include <bits/stdc++.h>
 using namespace std;
 int main(){
@@ -216,6 +233,7 @@ int main(){
  }
  return 0;
 }
+```
 Mr Somu - Searching Lvl 1
 #include <bits/stdc++.h>
 using namespace std;
