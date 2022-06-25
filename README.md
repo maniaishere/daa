@@ -3084,6 +3084,7 @@ return 0;
 ```
 You are given a bracket sequence s of length n, where n is even (divisible
 by two).
+```
 #include<bits/stdc++.h>
 using namespace std;
 int i,k,m,n,t;
@@ -3107,7 +3108,9 @@ cout<<-m<<endl;
 }
 return 0;
 }
+```
 You are given two positive integers x and y.
+```
 #include<bits/stdc++.h>
 using namespace std;
 long long t,x,y;
@@ -3129,8 +3132,10 @@ dfs(s1);
 if(vis.count(s2))printf("YES\n");
 else printf("NO\n");
 }
+```
 The translation from the Indian language into the Indo language is not an
 easy task.
+```
 #include<bits/stdc++.h>
 using namespace std;
 int main()
@@ -3141,7 +3146,9 @@ reverse(a.begin(), a.end());
 if(a==b) cout<<"YES";
 else cout<<"NO";
 }
+```
 Preethi has given a string S
+```
 #include<bits/stdc++.h>
 using namespace std;
 int a[1010],s;
@@ -3156,8 +3163,10 @@ cout<<s;
 return 0;
 cout<<"string s; cin>>s;";
 }
+```
 Those days, many boys use beautiful girls' photos as avatars in forums. So
 it is pretty hard to tell the gender of a user at the first glance.
+```
 #include <iostream>
 using namespace std;
 void hi(){
@@ -3176,8 +3185,10 @@ else if(a==120) cout<<"IGNORE HIM!";
 else cout<<"CHAT WITH HER!";
 return 0;
 }
+```
 Ramya decided to write an anonymous letter cutting the letters out of a
 newspaper heading.
+```
 #include <iostream>
 using namespace std;
 int main()
@@ -3191,7 +3202,9 @@ else cout<<"YES";
 return 0;
 cout<<"string cin>>t";
 }
+```
 Vasya has recently learned to type and log on to the Internet.
+```
 #include<bits/stdc++.h>
 using namespace std;
 char c,a[7]="hello ";
@@ -3203,8 +3216,10 @@ if(i==5) cout<<"YES"; else cout<<"NO";
 return 0;
 cout<<"int n=strlen(s); #include<string.h> char s[101];";
 }
+```
 You are given a bracket sequence s of length n, where n is even (divisible
 by two).
+```
 #include<bits/stdc++.h>
 using namespace std;
 int i,k,m,n,t;
@@ -3228,8 +3243,10 @@ cout<<-m<<endl;
 }
 return 0;
 }
+```
 Xenia the beginner mathematician is a third year student at elementary
 school. She is now learning the addition operation.
+```
 #include <iostream>
 #include <string>
 #include <algorithm>
@@ -3248,8 +3265,9 @@ else cout << nums[i] << "+";
 return 0;
 cout<<"y=strlen(a); {if(a[i-2]>a[i]) {t=a[i-2];";
 }
+```
 Securitas ID on the national Sweden service «Pinkerton» has a form
-<username>@<hostname>[/resource], where
+```
 #include <iostream>
 using namespace std;
 void hi(){
@@ -3263,7 +3281,9 @@ else cout<<"NO";
 return 0;
 cout<<"string cin>>s;";
 }
+```
 Pradeep having the N student groups at the university.
+```
 #include <iostream>
 #include <algorithm>
 using namespace std;
@@ -3284,8 +3304,10 @@ s=s/10;
 sort(arr,arr+7);
 cout<<arr[6];
 }
+```
 The translation from the Indian language into the Indo language is not an
 easy task.
+```
 #include <bits/stdc++.h>
 using namespace std;
 int main(){
@@ -3295,8 +3317,10 @@ reverse(a.begin(), a.end());
 if(a == b) cout<<"YES";
 else cout<<"NO";
 }
+```
 One day Vinay decided to have a look at the results of Kolkata 1910
 Football Championship’s finals.
+```
 #include <stdio.h>
 #include <string.h>
 int main()
@@ -3308,7 +3332,9 @@ printf("%s",s);
 return 0;
 printf("cin>>n; cin>>b;");
 }
+```
 Those days, many boys use beautiful girls' photos as avatars in forums.
+```
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
@@ -3322,11 +3348,13 @@ cout<<printf(n%2==0? "CHAT WITH HER!" : "IGNORE HIM!");
 cout<<"n+=a[i];";
 cout<<" for(n=i=0;i<96;i++) ";
 }
+```
 You are given two positive integers x and y. You can perform the
 following operation with x: write it in its binary form without
 leading zeros, add 0 or 1 to the right of it, reverse the binary
 form and turn it into a decimal number which is assigned as the
 new value of x.
+```
 #include<bits/stdc++.h>
 using namespace std;
 long long t,x,y;
@@ -3348,8 +3376,10 @@ dfs(s1);
 if(vis.count(s2))printf("YES\n");
 else printf("NO\n");
 }
+```
 SUM OF SUBSETS
 Mani bought N items from a Nilgiris super market.
+```
 #include<iostream>
 #include<math.h>
 using namespace std;
@@ -3366,7 +3396,9 @@ cout<<ceil(n/10)<<endl;
 }
 return 0;
 }
+```
 Ajith Kumar wants to reach Lord Murugan Temple as soon as possible.
+```
 #include<iostream>
 using namespace std;
 void for_(){
@@ -3385,7 +3417,9 @@ else cout<<"Audi"<<endl;
 }
 return 0;
 }
+```
 Ajith Kumar wants to reach Lord Murugan Temple as soon as possible.
+```
 #include<iostream>
 using namespace std;
 void for_(){
@@ -3404,7 +3438,9 @@ else cout<<"Audi"<<endl;
 }
 return 0;
 }
+```
 Last week, Annamalai went to MGM Dizzee World with his friends.
+```
 #include <iostream>
 using namespace std;
 int main()
@@ -3419,8 +3455,10 @@ if((x-y)<(a+b+c)) cout<<"NO"<<endl;
 else cout<<"YES"<<endl;
 }
 }
+```
 Pyramid's consists of an infinite number of rows of an increasing number
 of integers each, arranged in a triangular shape.
+```
 #include<iostream>
 #include<math.h>
 using namespace std;
@@ -3442,8 +3480,10 @@ l++;
 return 0;
 cout<<"for(j=row;j>=0;j--)";
 }
+```
 Tamil New Year is approaching and thus Ganesan wants to buy some maha
 lactos for someone special.
+```
 #include<iostream>
 using namespace std;
 void for_(){
@@ -3459,7 +3499,9 @@ cout<<x/y<<endl;
 }
 return 0;
 }
+```
 Mano went shopping and bought items worth X dollors
+```
 #include<iostream>
 #include<math.h>
 using namespace std;
@@ -3476,7 +3518,9 @@ cout<<100-n<<endl;
 }
 return 0;
 }
+```
 James Bond is playing a variant of Casino
+```
 #include <iostream>
 using namespace std;
 int main()
@@ -3495,7 +3539,9 @@ cout<<z<<"\n";
 }
 return 0;
 }
+```
 Senthil is out on a hike with friends.
+```
 #include<iostream>
 using namespace std;
 int main()
@@ -3520,7 +3566,9 @@ return 0;
 cout<<" n=(int *)malloc(t*sizeof(int));ans=(int *
 *)malloc(t*sizeof(int *)); ";
 }
+```
 Pradeep having the N student groups of the university.
+```
 #include <iostream>
 #include <algorithm>
 using namespace std;
@@ -3541,7 +3589,9 @@ s=s/10;
 sort(arr,arr+7);
 cout<<arr[6];
 }
+```
 There are Two Types of Vehicles
+```
 #include<bits/stdc++.h>
 using namespace std;
 void for_(){}
@@ -3557,8 +3607,10 @@ else if(n>100) cout<<ceil((n-100)/4)*as+ls<<endl;
 else cout<<y<<endl;
 }
 }
+```
 In Army, soldiers are played in the two dimensional Cartesian coordinate
 system without bounds.
+```
 #include <algorithm>
 #include <climits>
 #include <iostream>
@@ -3609,9 +3661,11 @@ Solution solution = Solution();
 solution.solve(i);
 }
 }
+```
 RANDOMIZED ALGORITHM
 Kadamban has planned a motorbike tour through the Western Ghats of Tamil
 Nadu.
+```
 #include<iostream>
 using namespace std;
 int main()
@@ -3635,8 +3689,10 @@ cout<<count<<endl;
 }
 return 0;
 }
+```
 N teams participate in an IPL tournament in Chennai, where each pair of
 distinct teams plays each other exactly once.
+```
 #include <iostream>
 using namespace std;
 void a(){}
@@ -3656,9 +3712,11 @@ else x+=a[j]-a[i];
 cout<<x;
 return 0;
 }
+```
 Good news! Shankar get to go to Belgium on a class trip! Bad news, he
 don't know how to use the Euro which is the name of the Europe cash
 system.
+```
 #include<iostream>
 using namespace std;
 int main()
@@ -3687,8 +3745,10 @@ cout<<a;
 return 0;
 cout<<"char name[MAX][LEN];int price[MAX] afford[MAX]";
 }
+```
 Sakthi is a driver of Parveen Travels. He has a driving duty for festival
 time.
+```
 #include<iostream>
 using namespace std;
 int main()
@@ -3708,7 +3768,9 @@ else cout<<"YES"<<endl;
 }
 return 0;
 }
+```
 Raja Ravi Varma was an Indian painter and artist.
+```
 #include <bits/stdc++.h>
 using namespace std;
 int main(){
@@ -3730,8 +3792,10 @@ cout<<ans<<"\n";
 return 0;
 cout<<"for(k=1;k<=T;++k) vector<int> b(N+1);";
 }
+```
 Banana leaf platter is a traditional method of serving rice dishes in
 South Indian cuisine.
+```
 #include <bits/stdc++.h>
 using namespace std;
 #define ll long long
@@ -3764,8 +3828,10 @@ solve();
 return 0;
 cout<<"int max(int a,int b) for(int i = 0;i < n;i++) ";
 }
+```
 Two terrorists called T1 and T2 are playing a competition with a starting
 number of Land mines.
+```
 #include<iostream>
 using namespace std;
 int main()
@@ -3780,8 +3846,10 @@ else cout<<"SECOND"<<endl;
 return 0;
 cout<<"for";
 }
+```
 Pakshi Rajan is a birds lover, so he spends some free time taking care of
 many of her loved ones' birds.
+```
 #include <iostream>
 #include <algorithm>
 using namespace std;
@@ -3810,8 +3878,10 @@ cout<<sum+1<<endl;
 return 0;
 cout<<"int s[MAXN]; void sol() read(s[i])";
 }
+```
 Sundar has developed an Android app. He has a list of potential purchasers
 for his app.
+```
 #include <iostream>
 #include <algorithm>
 using namespace std;
@@ -3830,3 +3900,4 @@ arr[i]=arr[i]*(n-i);
 cout<<*max_element(arr,arr+n);
 return 0;
 }
+```
