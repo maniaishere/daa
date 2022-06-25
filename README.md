@@ -235,6 +235,7 @@ int main(){
 }
 ```
 Mr Somu - Searching Lvl 1
+```
 #include <bits/stdc++.h>
 using namespace std;
 int main()
@@ -255,7 +256,9 @@ int main()
  return 0;
  cout<<"if(n%2==1)";
 }
+```
 Given two integers 'b' and 'a' - Searching Lvl 1
+```
 #include <iostream>
 using namespace std;
 int main()
@@ -271,7 +274,9 @@ for(int cs=1;cs<=t;cs++){
  printf("%lld\n",ans);
  }
 }
+```
 In the following figure you can see a rectangular, Searching - Level 1
+```
 #include <bits/stdc++.h>
 using namespace std;
 void solve(){
@@ -293,8 +298,10 @@ printf ("%.9f\n", res);
 }
 return 0;
 }
+```
 ----------------------------------------------------------
 The Mask ate a block of dynamite to save, Searching - Level 1
+```
 #include <bits/stdc++.h>
 using namespace std;
 int main()
@@ -317,8 +324,10 @@ cout<<fixed<<setprecision(2)<<res<<" the Mask can eat it!";
 return 0;
 cout<<"for";
 }
+```
 ----------------------------------------------------------
 There is a Gangaroo initially placed at the, Searching - Level 1
+```
 #include <stdio.h>
 int main(){
 int x,y,s,t,i,j,count=0;
@@ -355,7 +364,9 @@ while(p<=s)
 }cout<<x;
 return 0;
 }
- Seetha
+```
+Seetha
+```
 #include <bits/stdc++.h>
 using namespace std;
 #define MAX_SIZE 1000005
@@ -384,8 +395,10 @@ int main()
  cout<<primes[n-1]<<"\n";
  }
 }
+```
 SORTING TECHNIQUES
 RSA is a public key crypto
+```
 #include <bits/stdc++.h>
 using namespace std;
 void solve(){
@@ -424,7 +437,9 @@ int main()
  }
  return 0;
 }
+```
 Shankar is a volleyball player
+```
 #include<bits/stdc++.h>
 using namespace std;
 typedef long long LL;
@@ -453,7 +468,9 @@ int main() {
  cout << res << '\n';
  }
 }
+```
 Great news! You get to go to Japan, Sorting - Level 1
+```
 #include<iostream>
 using namespace std;
 int main()
@@ -482,8 +499,10 @@ cout<<a;
 return 0;
 cout<<"for(i=1;i<=yen;i++) int i,j;";
 }
+```
 ----------------------------------------------------------
 Scrooge Mcduck’s vault is practically, Sorting - Level 1
+```
 #include<iostream>
 using namespace std;
 int main()
@@ -503,8 +522,10 @@ cout<<r<<endl;
 }
 return 0;
 }
+```
 ----------------------------------------------------------
 Tina owns a match making company, which even to her, Sorting - Level 1
+```
 #include<bits/stdc++.h>
 using namespace std;
 int main()
@@ -528,8 +549,10 @@ cout<<sum<<endl;
 }
 return 0;
 }
+```
 ----------------------------------------------------------
 Ace ventura, pet detective, is on the hunt for a rare, Sorting - Level 1
+```
 #include<bits/stdc++.h>
 using namespace std;
 #define p1 cout<<"Ace, move fast, pigeon is at ("<<i<<",0)";
@@ -557,8 +580,10 @@ i++;
 }
 if(cnt==1) p2
 else p3 }
+```
 ----------------------------------------------------------
 The sapphire consulting and marketing company is adding, Sorting - Level 1
+```
 #include <stdio.h>
 #include <stdlib.h>
 int isqrt(n) int n; {
@@ -586,8 +611,10 @@ printf("%d liters\n",s);
 }
 return 0;
 }
+```
 ----------------------------------------------------------
 Ganesan has a string S consisting of lowercase, Sorting - Level 1
+```
 #include<bits/stdc++.h>
 using namespace std;
 int main()
@@ -608,7 +635,9 @@ return 0;}
 cout<<"Yes";
 return 0;
 }
+```
 THERE ARE N INTEGERS
+```
 #include <stdio.h>
 #include <string.h>
 #include <math.h>
@@ -644,7 +673,9 @@ int main() {
 void y(){
  printf("break;");
 }
+```
 Siva has several containers, each with a number
+```
 #include <stdio.h>
 #include <stdlib.h>
 void insertionSort(long int p,long int n);
@@ -688,7 +719,9 @@ void asd()
  printf("Impossible\n");
  }
 }
+```
 Avul pakir
+```
 #include <iostream>
 #include<string.h>
 using namespace std;
@@ -713,7 +746,9 @@ int main(){
  }
  return 0;
 }
+```
 Banana leaf platter
+```
 #include <bits/stdc++.h>
 using namespace std;
 #define ll long long
@@ -746,7 +781,9 @@ solve();
 return 0;
 cout<<"int max(int a,int b) for(int i = 0;i < n;i++) ";
 }
+```
 Having Conquered
+```
 #include <bits/stdc++.h>
 using namespace std;
 string z = "break; if";
@@ -767,7 +804,9 @@ int main(){
  float res = atan(z) * (180/3.14159);
  printf("%.2f %.1f", z, res);
 }
+```
 THAI PONGAL
+```
 #include <iostream>
 using namespace std;
 int factors(int num,int l) {
@@ -800,9 +839,11 @@ int main()
  }
  return 0;
 }
+```
 DIVIDE AND CONQUER
 Programmer Sandhosh and you have a New Year Tree (not the traditional fur tree, though) ,
 Divide and Conquer -Level 1
+```
 #include<bits/stdc++.h>
 using namespace std;
 const int N=1e6+10;
@@ -843,8 +884,10 @@ int main() {
  }
  return 0;
 }
+```
 Leopard is in the Amusement Park. And now she is in a queue in front of the Ferris wheel ,
 Divide and Conquer - Level 1
+```
 #include<cstdio>
 #include<iostream>
 using namespace std;
@@ -873,6 +916,7 @@ g[i]=j;
 }
 printf("%d\n",sum[n][n]/2-f[n]);
 }
+```
 Padmavati is a clever girl and she wants to participate in Olympiads this year. Of course she
 wants her partner to be clever too (although he's not)! Padmavati has prepared the following test
 problem for Sativathi , Divide and Conquer - Level 1
