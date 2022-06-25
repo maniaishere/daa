@@ -2986,6 +2986,7 @@ return 0;
 ```
 The houses are numbered from 1 to N. Underground water pipes connect these
 houses together.
+```
 #include<iostream>
 using namespace std;
 #define N 1010
@@ -3017,8 +3018,11 @@ printf("%d %d %d\n",i,t,min);
 }
 return 0;
 }
+```
+
 String Matching
 Sometimes some words like "localization" or "internationalization" are so long
+```
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
@@ -3032,9 +3036,11 @@ else{
 cout<<s[0]<<s.size()-2<<s[len-1];
 }
 }
+```
 Casimir has a string s which consists of capital Latin letters 'A', 'B',
 and 'C' only. Each turn he can choose to do one of the two following
 actions:
+```
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
@@ -3047,7 +3053,9 @@ else cout<<"NO"<<endl;
 char str[50];
 scanf("%s",str);
 }
+```
 Sometimes it is hard to prepare tests for programming problems
+```
 #include <bits/stdc++.h>
 #define LL long long
 using namespace std;
@@ -3073,6 +3081,7 @@ ion(z,z+3));
 cout<<mn;
 return 0;
 }
+```
 You are given a bracket sequence s of length n, where n is even (divisible
 by two).
 #include<bits/stdc++.h>
