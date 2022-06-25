@@ -920,6 +920,7 @@ printf("%d\n",sum[n][n]/2-f[n]);
 Padmavati is a clever girl and she wants to participate in Olympiads this year. Of course she
 wants her partner to be clever too (although he's not)! Padmavati has prepared the following test
 problem for Sativathi , Divide and Conquer - Level 1
+```
 #include <iostream>
 #include <map>
 using namespace std;
@@ -942,8 +943,10 @@ int main(){
  }
  cout<<w<<endl;
 }
+```
 Maakesh caught the trail of the ancient Book of Evil in a swampy area , Divide and Conquer -
 Level 1
+```
 #include <bits/stdc++.h>
 using namespace std;
 const int N = 100005;
@@ -974,11 +977,13 @@ int main(){
  if(prob[i])++ret;
  cout<<ret<<endl;
 }
+```
 Lakshman and Sukran are the best competitive programmers in their town. However, they can't
 both qualify to an important contest. The selection will be made with the help of a single
 problem. Bhoominath, a friend of Lakshman, managed to get hold of the problem before the
 contest. Because he wants to make sure Lakshman will be the one qualified, he tells Lakshman
 the following task , Divide and Conquer - Level 1
+```
 #include <bits/stdc++.h>
 using namespace std;
 long long n, i = 1, j, k = 9e9, x, s[100001], d;
@@ -991,8 +996,10 @@ int main() {
  if (i != j) k = min(k, (i - j) * (i - j) + (s[i] - s[j]) * (s[i] - s[j]));
  cout << k;
 }
+```
 Recently Aarush has become keen on physics. Anna V., his teacher noticed Aarush's interest and
 gave him a fascinating physical puzzle a half-decay tree , Divide and Conquer - Level 1
+```
 #include<bits/stdc++.h>
 using namespace std;
 int h,q,v,e;string str;map<int,int> f;
@@ -1010,8 +1017,10 @@ cin>>h>>q;
  }
  return 0;
 }
+```
 Prithvi are in the world of mathematics to solve the great "Monkey and the carrot" , Divide and
 Conquer - Level 1
+```
 #include <bits/stdc++.h>
 using namespace std;
 int main()
@@ -1061,8 +1070,10 @@ bananaMatrix[row][column];
  return 0;
  cout<<"cin>>carrotMatrix[row][column];";
 }
+```
 In this problem you will meet the simplified model of game Pudding Monsters , Divide and
 Conquer - Level 1
+```
 #include <bits/stdc++.h>
 #define fi first
 #define se second
@@ -1116,8 +1127,10 @@ int main(){
  printf("%lld\n",ans+n);
  return 0;
 }
+```
 Fazil is an unemployed computer scientist who spends his days working at odd-jobs. Divide &
 Conquer - Level 1
+```
 #include <bits/stdc++.h>
 using namespace std;
 string word;
@@ -1141,8 +1154,10 @@ int main(){
  return 0;
  printf("long long calculate(int s,int e)");
 }
+```
 A set of points on a plane is called fair, if for any two points at least one of the three conditions is
 true , Divide & Conquer - Level 1
+```
 #include<bits/stdc++.h>
 using namespace std;
 pair<int,int>p[10010];
@@ -1171,8 +1186,10 @@ int main()
  return 0;
  printf("void fiv(int l,int r),cin>>n;cin>>a[i].first>>a[i].second;");
 }
+```
 Prof.Dr. Ramalingam need representing positive integer N as a sum of addends, where each
 addends is an integer number containing only 1s , Divide and Conquer - Level 1
+```
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -1194,8 +1211,11 @@ int main()
 Init();
  return 0;
 }
+```
+
 Now Sabanayagam becomes a commander of Ladakh. Ladakh, like its name said, Divide &
 Conquer - Level 1
+```
 #include<bits/stdc++.h>
 using namespace std;
 #define N 100005
@@ -1229,9 +1249,12 @@ int main(){
  for(i=1;i<=n;i++)printf("%c ",ans[i]);
  return 0;
 }
+```
+
 Kishan are developing a 'Love calculator' software. You are planning to write the software in a
 complex way such that nobody would be able to crack the exact behavior of the software. Divide
 & Conquer - Level 1
+```
 #include <bits/stdc++.h>
 using namespace std;
 int main()
@@ -1282,8 +1305,10 @@ uniqueString[name1.length() - 1][name2.length() - 1];
  return 0;
  cout<<"cin>>name1>>name2;";
 }
+```
 After the long contest, Sameer returned home and got angry after seeing his room dusty , Divide
 & Conquer - Level 1
+```
 #include <bits/stdc++.h>
 using namespace std;
 int partition(int array[],int leftIndex,int rightIndex){
@@ -1340,8 +1365,10 @@ int main(){
 
  return 0;
 }
+```
 GREEDY ALGORITHM
 Vaanavan thinks that lucky tickets are the tickets whose numbers are divisible by 3.
+```
 #include<bits/stdc++.h>
 using namespace std;
 int a[3];
@@ -1357,7 +1384,9 @@ int main()
  cout<<a[0]/2+min(a[1],a[2])<<endl;
  return 0;
 }
+```
 A sportsman starts from point xstart = 0
+```
 #include <bits/stdc++.h>
 using namespace std;
 void xyz(){}
@@ -1394,7 +1423,9 @@ int main() {
  cout << i << '\n';
  }if(1>2)cout<<"cin>>n>>m>>s>>d; \n cin>>a[i];";
 }
+```
 A hamburger stand received n orders for rental
+```
 #include<bits/stdc++.h>
 using namespace std;
 int n,l,z;
@@ -1413,7 +1444,9 @@ int main(){
  }cout<<z;
  return 0;
 }
+```
 It's a very unfortunate day for lavanya today
+```
 #include <bits/stdc++.h>
 using namespace std;
 #define res cin>>a[i],num+=a[i];
@@ -1432,7 +1465,9 @@ int main(){
  cout << fixed<<setprecision(1)<<min(mx*sum,v);
  return 0;
 }
+```
 shiv has given a rebus of form ?+?
+```
 #include <bits/stdc++.h>
 using namespace std;
 int p = 1, n, j, a[105];
@@ -1457,14 +1492,18 @@ int main()
  cout << (i ? (a[i]<0 ? "- " : "+ ") : "") << abs(a[i]) << " ";
  cout << "= " << n;
 }
+```
 a long time ago
+```
 #include<bits/stdc++.h>
 int a,i;
 int main()
 {std::string s,t;
 std::cin>>s>>t;
 for(i=s.find(t);i+1;++a,i=s.find(t,i+t.size()));std::cout<<a;}
+```
 A STEELING
+```
 #include<bits/stdc++.h>
 using namespace std;
 #define res cin>>a>>b; cin>>s>>d;
@@ -1475,7 +1514,9 @@ while(m--)cin>>a>>b,d[b]+=a;
 for(int i=10;i>0&&n>0;i--)s+=i*min(n,d[i]),n-=d[i];
 cout<<s;
 }
+```
  Vaanavan thinks that lucky tickets are the tickets whose numbers are divisible by 3.
+```
 #include<bits/stdc++.h>
 using namespace std;
 int a[3];
@@ -1491,7 +1532,9 @@ int main()
  cout<<a[0]/2+min(a[1],a[2])<<endl;
  return 0;
 }
- There are banks in the city where Vishnu lives
+```
+There are banks in the city where Vishnu lives
+```
 #include <bits/stdc++.h>
 using namespace std;
 typedef long long ll;
@@ -1503,7 +1546,9 @@ int main(){
  cin>>y,maxs=max(maxs,++mp[x+=y]);
  cout<<n-maxs;
 }
+```
 A group of tourists is going on to rameshwaram and dhanushkodi tour.
+```
 #include<bits/stdc++.h>
 using namespace std;
 int c[2],i,x,t,n,p,j;
@@ -1529,7 +1574,9 @@ int main(){
  F(i,t)printf("%d ",a[0][i+1].second);
  return 0;
 }
- Nadanan's company employed n people. Now Nadanan needs to build a tree hierarchy
+```
+Nadanan's company employed n people. Now Nadanan needs to build a tree hierarchy
+```
 #include<bits/stdc++.h>
 using namespace std;
 int a[10001],n,m,x,y;
@@ -1552,7 +1599,9 @@ int main(){
  return 0;
  cout<<"cin>>ans[0]; cin>>a>>b>>c;";
 }
+```
 A remote island chain contains islands,
+```
 #include<iostream>
 using namespace std;
 int N;
@@ -1584,7 +1633,9 @@ int main()
  return 0;
  cout<<"cin>>n;cin>>b[i];";
 }
+```
 Students in a class are making towers of blocks.
+```
 #include<iostream>
 using namespace std;
 int main(){
@@ -1594,7 +1645,9 @@ int main(){
  cout<<i;
  return 0;
 }
+```
 Samantha has given an array of N elements, you must make it a co-prime array
+```
 #include<bits/stdc++.h>
 using namespace std;
 int n,x,p=1;
@@ -1606,7 +1659,9 @@ for(int x:X)cout<<x<<' ';
 return 0;
 cout<<"cin>>x;cin>>y[i];";
 }
- Devika is addicted to meat!
+```
+Devika is addicted to meat!
+```
 #include <iostream>
 using namespace std;
 void hi(){}
@@ -1621,7 +1676,9 @@ int main()
  if (sum==11) sum-=3;
  cout<<sum;
  return 0;}
+ ```
 Devika is addicted to meat! malik wants to keep
+```
 #include<iostream>
 using namespace std;
 #define f(n) for(n=n;n>0;--n)
@@ -1637,7 +1694,9 @@ int main()
  }
  printf("%d",r);
 }
+```
 The spring is coming and it means that a lot of fruits appear on the counters.
+```
 #include <bits/stdc++.h>
 using namespace std;
 int g[110],cnt[110],n,m,idx;
@@ -1667,9 +1726,11 @@ int main()
  printf("%d %d\n",sum1,sum2);
  return 0;
 }
+```
 SESSION 5: DYNAMIC PROGRAMMING:-
 There are N sprinklers in a field. Each sprinkler has some range up to where it can
 sprinkle water.
+```
 #include<bits/stdc++.h>
 using namespace std;
 #define mod 1000000007
@@ -1710,7 +1771,9 @@ cout<<ans[inp]<<endl;
 return 0;
 cout<<"int max(int a,int b) int min(int a,int b) ";
 }
+```
 Venkat plays the age of emperor II. He was bored of playing
+```
 #include <bits/stdc++.h>
 using namespace std;
 int n, k, c, p[101][101][30], a[30][30];
@@ -1742,7 +1805,9 @@ a[u-'a'][v-'a']=c;
 memset(p, -1, sizeof(p));
 cout<<solve();
 }
+```
 This is the easy version of the problem. The only difference is maximum value
+```
 #include<bits/stdc++.h>
 #define int long long
 using namespace std;
@@ -1760,7 +1825,9 @@ d[i]=e[i]*i+s;
 printf("%lld\n",d[1]);
 return 0;
 }
+```
 Bob goes to the fruit shop to buy apples. There are N apples numbered from 1 to N
+```
 #include<bits/stdc++.h>
 using namespace std;
 int i,n, m, sum, a[1002][2];
@@ -1796,8 +1863,10 @@ int ntest = 1;
 cin>>ntest;
 while(ntest -- > 0)sol();
 }
+```
 chitesh — 05/18/2022
 you have infinite
+```
 #include <bits/stdc++.h>
 using namespace std;
 using ll = long long int;
@@ -1821,7 +1890,9 @@ else
 printf("%lld\n",9*n-18);
 }
 }
+```
 There are N knights
+```
 #include<bits/stdc++.h>
 using namespace std;
 int n,a[100020],z;
@@ -1841,7 +1912,9 @@ if(z)
 cout<<"NO";
 return 0;
 }
+```
 Samy
+```
 #include<stdio.h>
 int function(int arr[],int i,int j,int memo[][1001],int k)
 {
@@ -1892,7 +1965,9 @@ printf("NO\n");
 else
 printf("YES\n");
 }
+```
 Lawrence could not sleep lately, because he had nightmares.
+```
 #include<bits/stdc++.h>
 using namespace std;
 #define int long long
@@ -1917,7 +1992,9 @@ if(c[i]>1)
 }
 cout<<(A+(a[c[0]]-1)*a[n-c[0]])%D;
 }
+```
 Professor Wiki has performed some experiments on rays.
+```
 #include<bits/stdc++.h>
 using namespace std;
 int n,x,i;
@@ -1943,7 +2020,9 @@ int zero=0;
 printf("%ld\n",lower_bound(f,f+n,zero)-f);
 return 0;
 }
+```
 VSR also bought new K machines to increase its company revenue.
+```
 #include<bits/stdc++.h>
 using namespace std;
 const int N=2e3+5,M=1e5+5;
@@ -1985,8 +2064,10 @@ while(spfa());
 for(int i=1;i<=n;i++) printf("%d ",c[p[i]]?1:0);
 return 0;
 }
+```
 You are given two numbers n and k.For each number in the interval [1,n],your task is
 to calculate it's largest divisor that is not divisible by k.
+```
 #include<bits/stdc++.h>
 using namespace std;
 using ll = long long;
@@ -2008,7 +2089,9 @@ printf("%lld\n", f(n, k));
 }
 return 0;
 }
+```
 Alice lives in a country.
+```
 #include<bits/stdc++.h>
 using namespace std;
 #define ll long long
@@ -2047,7 +2130,9 @@ cout<<max(dp[k-1][0],dp[k-1][1])<<endl;
 }
 return 0;
 }
+```
 The VJ media isn't very popular in Indialand.
+```
 #include <bits/stdc++.h>
 #define rep(i, n) for (int i = 0; i < (int)(n); ++ i)
 #define rep1(i, n) for (int i = 1; i <= (int)(n); ++ i)
@@ -2099,7 +2184,9 @@ dump(u, v, g[u] < f[u][centre] ? cent[u] : centre);}}int main()
 scanf("%d%d", &u, &v);G[u].push_back(v), G[v].push_back(u);}rep1(i, N) dfs_dist(i, i,
 -1, 0);dfs(1, 1);printf("%d\n", g[1]); dump(1, 1, cent[1]);
 rep1(i, N) printf("%d ", cent[i]); printf("\n");return 0;printf("void init()cin>>n>>k;");}
+```
 you have infinite
+```
 #include <bits/stdc++.h>
 using namespace std;
 using ll = long long int;
@@ -2123,8 +2210,11 @@ else
 printf("%lld\n",9*n-18);
 }
 }
+```
+
 SESSION 6: BACKTRACKING:-
 Lucky Numbers
+```
 #include<bits/stdc++.h>
 using namespace std;
 #define int long long int
@@ -2197,8 +2287,10 @@ cin>>s;
 cout<<solve(s)<<endl;
 }
 }
+```
 Fatal Eagle has decided to do something to save his favorite city against the attack
 of Mr. XYZ,
+```
 #include <bits/stdc++.h>
 using namespace std;
 long long int dp[213][213];
@@ -2232,8 +2324,10 @@ printf("%Ld\n",ans);
 }
 return 0;
 }
+```
 Given an array A of N elements, find the number of distinct possible sums that can
 be obtained by taking any number of elements from the array and adding them.
+```
 #include <stdio.h>
 #include <stdlib.h>
 #define max 101
@@ -2266,7 +2360,9 @@ t--;
 }
 return 0;
 }
+```
 Chef started watching a movie that runs for a total of XX minutes.
+```
 #include <iostream>
 using namespace std;
 int main() {
@@ -2276,8 +2372,10 @@ cout<<(x-(y/2))<<endl;
 return 0;
 cout<<"while(t--)";
 }
+```
 Given integer N, you need to find four integers A,B,C,D, such that they're all factors
 of N(A|N,B|N,C|N,D|N), and N=A+B+C+D.
+```
 #include <iostream>
 using namespace std;
 int main()
@@ -2290,7 +2388,9 @@ else cout<<-1;
 return 0;
 cout<<"while(t--)";
 }
+```
 Given a string S, count the number of non empty sub strings that are palindromes.
+```
 #include <stdio.h>
 #include<string.h>
 int check(char s[],char a[],int x,int y)
@@ -2334,8 +2434,10 @@ c++;
 printf("%d",c);
 return 0;
 }
+```
 Given a chess board having NxN cells, you need to place N queens on the board in
 such
+```
 #include<iostream>
 using namespace std;
 int n;
@@ -2370,7 +2472,9 @@ cout<<endl;
 else cout<<"Not possible\n";
 return 0;
 }
+```
 Samu is playing a shooting game in play station.
+```
 #include<bits/stdc++.h>
 using namespace std;
 #define MAXN 1010
@@ -2402,7 +2506,9 @@ p2*DP[i-1][max(j-Y,0)] + (1-p2)*DP[i-1][max(j,0)]);
 printf("%.6f\n",DP[N][W]*100);
 }
 }
+```
 There is a mysterious temple in mysteryland. The door of the temple is always
+```
 #include <bits/stdc++.h>
 using namespace std;
 int arr [100 + 5];
@@ -2441,7 +2547,9 @@ else cout << "NO\n";
 }
 return 0;
 }
+```
 You are given three arrays a1…n,b1…n,c1…n and two numbers M and K.
+```
 #include <iostream>
 #include<bits/stdc++.h>
 #define f1 for(i=0;i<n;i++)
@@ -2487,7 +2595,9 @@ cout << i << " " << j << " " << l;
 else
 cout << "-1" << endl;
 }
+```
 The end semester exams are now approaching. Ritu is the computer
+```
 #include<iostream>
 #include<bits/stdc++.h>
 using namespace std;
@@ -2534,8 +2644,10 @@ count%=mod;
 }
 cout<<count<<'\n';
 }
+```
 You are given two numbers n and k. for each number in the interval [1,n], your task is
 to
+```
 #include<bits/stdc++.h>
 using namespace std;
 using ll = long long;
@@ -2557,9 +2669,11 @@ printf("%lld\n", f(n, k));
 }
 return 0;
 }
+```
 SESSION 7: GRAPH COLOURING:-
 An undirected graph, consisting of N vertices and m edges. We will consider the
 graph's vertices numbered with integers from 1 to N.
+```
 #include <bits/stdc++.h>
 using namespace std;
 set<int> s[100005];
@@ -2591,8 +2705,10 @@ m--;
 if(!m)return 0;
 }
 }
+```
 Nowadays the one-way traffic is introduced all over the world in order to improve
 driving safety and reduce traffic jams.
+```
 #include<bits/stdc++.h>
 using namespace std;
 int s[105],e[105];
@@ -2606,7 +2722,9 @@ ans+=c;
 }
 cout<<min(res,ans-res);
 }
+```
 Chef Monocarp has just put n dishes into an oven.
+```
 #include <bits/stdc++.h>
 using namespace std;
 void hi(){}
@@ -2625,8 +2743,10 @@ cout<<f[n]<<endl;
 return 0;
 cout<<"int dp[225][450]; int t[225]; int t;";
 }
+```
 Students of Winter Informatics School are going to live in a set of houses connected
 by underground passages.
+```
 #include<bits/stdc++.h>
 using namespace std;
 vector<vector<int>>adj;
@@ -2671,7 +2791,9 @@ cout<<res[i]<<" ";
 cout<<"\n";
 }
 }
+```
 There is a chessboard of size n by n.
+```
 #include<bits/stdc++.h>
 using namespace std;
 int t,n,s;
@@ -2693,8 +2815,10 @@ a[i+1]='3';
 }
 return 0;
 }
+```
 One Egyptian boy called Aabid wants to present a string of beads to his friend from
 the Earth Manasha.
+```
 #include <bits/stdc++.h>
 using namespace std;
 #define rep(i,s,t) for(I i=s;i<=t;++i)
@@ -2708,14 +2832,16 @@ if (l>r)R 1;L&F=f[l][x][y];if(~F)R F;F=0;
 rep(i,0,1)rep(j,0,1)if(a[l]-!i&&a[r]-!j&&(l<r||i==j)&&(x||i<=j)&&(y||i<=(!j)))F+=C(l+1,r-1,x||
 (i<j),y||(i<!j));R F;
 }
-I main(){
+int main(){
 cin>>n>>K;c(a)c(f)if(C(1,n,a[1]=0,0)<++K)R cout<<-1,0;
 rep(i,2,n){c(f)d=C(1,n,a[i]=0,0);K-=(a[i]=(d<K))*d;}
 rep(i,1,n)cout<<a[i];
 R 0;
 cout<<"int beads(int len,int lim1,int lim2) cin>>n>>m;";
 }
+```
 Danika gotten an N × M sheet of squared paper. Some of its squares are painted
+```
 #include<cstdio>
 #include<cstring>
 #include<iostream>
@@ -2745,7 +2871,9 @@ if(k>1){puts("1");return 0;
 }s[i][j]='#';}
 printf("%d\n",cnt>2?2:-1);
 }
+```
 During the break the schoolchildren, boys and girls, formed a queue
+```
 #include<iostream>
 int main(){
 int n,t;
@@ -2759,8 +2887,10 @@ if(s[j]=='B'&&s[j+1]=='G')
 std::cout<<s;
 return 0;
 std::cout<<"int i,k,n; while(k){ char a[n+3];";}
+```
 Little X has n distinct integers: p1,p2.......pn . He wants to divide all of them into two
 sets of A And B.
+```
 #include<bits/stdc++.h>
 using namespace std;
 typedef long long ll;
@@ -2794,7 +2924,9 @@ printf("%d ",A[num[i]]>0?0:1);
 A[num[i]]--;
 }
 }
+```
 We call two numbers x and y similar if they
+```
 #include <bits/stdc++.h>
 using namespace std;
 int i,k,m,n,t,a[60];
@@ -2820,7 +2952,9 @@ t--;
 return 0;
 cout<<"int t,n,q,i,j,w,a[55],b[55];";
 }
+```
 Adiththi likes drawing. She has drawn many graphs already, both directed and not.
+```
 #include<bits/stdc++.h>
 using namespace std;
 #define ggg int find(int p) unite(int p,int q) cin>>u>>v;
@@ -2849,6 +2983,7 @@ if (a[j]<2&&(n<=2||m+1==n||find(i)!=find(j)))
 }
 return 0;
 }
+```
 The houses are numbered from 1 to N. Underground water pipes connect these
 houses together.
 #include<iostream>
